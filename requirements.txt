@@ -1,32 +1,20 @@
 # CrewAI - the multi-agent orchestration framework
 crewai==0.80.0
 
-# Groq - free LLM API we'll use as the brain for all agents
+# Groq - free LLM API used as the brain for all agents (model set in agents.py)
 groq==0.9.0
-langchain-groq==0.1.9
 
-# yfinance - fetches real stock data from Yahoo Finance, no API key needed
-yfinance==0.2.40
+# yfinance - fetches real stock data, financials, and news from Yahoo Finance, no API key needed
+yfinance
 
-# pandas - data manipulation and cleaning (Data Engineer work)
+# pandas - data handling
 pandas==2.2.2
 
-# matplotlib & plotly - chart generation (Data Analyst work)
-matplotlib==3.9.0
+# plotly - interactive price chart rendered in app.py
 plotly==5.22.0
-
-# duckduckgo-search - free web search, no API key needed
-googlesearch-python==1.2.3
-# sqlite3 is built into Python, no install needed
 
 # python-dotenv - loads API keys from .env file
 python-dotenv==1.0.1
 
-# streamlit - builds the UI for the app
+# streamlit - builds the web UI
 streamlit==1.35.0
-
-# requests - for hitting SEC.gov directly (free, no API key)
-requests==2.32.3
-
-# beautifulsoup4 - parses HTML from SEC filings
-beautifulsoup4==4.12.3
